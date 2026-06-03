@@ -1,3 +1,3 @@
-SELECT title, price
-FROM books
+SELECT b.title, b.price
+FROM books b
 WHERE price > 20;
